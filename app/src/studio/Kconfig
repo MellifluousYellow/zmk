@@ -19,6 +19,10 @@ menuconfig ZMK_STUDIO_LOCKING
 
 if ZMK_STUDIO_LOCKING
 
+config ZMK_STUDIO_LOCKING
+    bool "Studio Locking"
+    default n
+
 config ZMK_STUDIO_LOCK_IDLE_TIMEOUT_SEC
     int "Idle Timeout"
     default 600
